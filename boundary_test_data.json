@@ -1,0 +1,45 @@
+[
+  {
+    "orderNo": "00000001",
+    "orderDate": "2023-09-01",
+    "orderStatus": "INVALID",
+    "orderValidationCode": "TOTAL_INCORRECT",
+    "priceTotalInPence": 0,
+    "pizzasInOrder": [],
+    "creditCardInformation": null
+  },
+  {
+    "orderNo": "00000002",
+    "orderDate": "2023-09-01",
+    "orderStatus": "INVALID",
+    "orderValidationCode": "MAX_PIZZA_COUNT_EXCEEDED",
+    "priceTotalInPence": 10000,
+    "pizzasInOrder": [
+      {"name": "Pizza1", "priceInPence": 2000},
+      {"name": "Pizza2", "priceInPence": 2000},
+      {"name": "Pizza3", "priceInPence": 2000},
+      {"name": "Pizza4", "priceInPence": 2000},
+      {"name": "Pizza5", "priceInPence": 2000}
+    ],
+    "creditCardInformation": {
+      "creditCardNumber": "1234567890123456",
+      "creditCardExpiry": "12/25",
+      "cvv": "123"
+    }
+  },
+  {
+    "orderNo": "00000003",
+    "orderDate": "2023-09-01",
+    "orderStatus": "INVALID",
+    "orderValidationCode": "PIZZA_NOT_DEFINED",
+    "priceTotalInPence": 2500,
+    "pizzasInOrder": [
+      {"name": "Invalid Pizza Name", "priceInPence": 2500}
+    ],
+    "creditCardInformation": {
+      "creditCardNumber": "1111222233334444",
+      "creditCardExpiry": "12/22",
+      "cvv": "456"
+    }
+  }
+]
