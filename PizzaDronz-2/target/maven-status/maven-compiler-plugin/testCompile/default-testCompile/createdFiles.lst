@@ -1,0 +1,5 @@
+StructuralTest.class
+StressTest.class
+SmokeTest.class
+FunctionalTest.class
+BoundaryTest.class
